@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class DetailsWishlistPage extends StatelessWidget {
-  const DetailsWishlistPage({super.key});
+class DetailsUpdatesPage extends StatelessWidget {
+  const DetailsUpdatesPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -18,10 +18,10 @@ class DetailsWishlistPage extends StatelessWidget {
           ),
         ),
         title: const Text(
-          'Details Wishlist',
+          'Details Updates',
           style: TextStyle(color: Colors.white),
         ),
-        backgroundColor: const Color.fromARGB(255, 210, 52, 52),
+        backgroundColor: const Color.fromARGB(255, 210, 110, 52),
       ),
       body: Padding(
         padding: const EdgeInsets.all(10),
@@ -34,12 +34,12 @@ class DetailsWishlistPage extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  const Icon(Icons.favorite),
+                  const Icon(Icons.notifications),
                   const SizedBox(
                     height: 1,
                   ),
                   const Text(
-                    'Details wishlist Items',
+                    'Details updates Items',
                     textAlign: TextAlign.center,
                   ),
                   const SizedBox(

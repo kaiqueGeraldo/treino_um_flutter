@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:treino_um/app/views/details_updates_page.dart';
 import 'package:treino_um/app/views/details_wishlist_page.dart';
 import 'package:treino_um/app/views/home_page.dart';
 import 'package:treino_um/app/views/initial_page.dart';
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
         '/signup': (context) => const SignUpPage(),
         '/home': (context) => const HomePage(),
         '/detailWishlist': (context) => const DetailsWishlistPage(),
+        '/detailUpdates': (context) => const DetailsUpdatesPage(),
       },
     );
   }

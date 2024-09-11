@@ -109,9 +109,11 @@ class _SignInPageState extends State<SignInPage> {
                                 ))),
                             onPressed: () {
                               if (email == 'kaique' && password == '123') {
-                                Navigator.of(context).pushReplacementNamed('/home');
+                                Navigator.of(context)
+                                    .pushReplacementNamed('/home');
                               } else {
-                                showAlert(context, 'Erro', 'Email ou senha incorretos.');
+                                showAlert(context, 'Erro',
+                                    'Email ou senha incorretos.');
                               }
                             },
                             child: Text('Sign In')),

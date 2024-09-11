@@ -1,6 +1,7 @@
 // ignore_for_file: unnecessary_const
 
 import 'package:flutter/material.dart';
+import 'package:treino_um/app/views/main_updates_page.dart';
 import 'package:treino_um/app/views/main_wishlist_page.dart';
 
 class MainWrapper extends StatefulWidget {
@@ -41,10 +42,8 @@ class _MainWrapperState extends State<MainWrapper> {
         child: IndexedStack(
           index: _selectedIndex,
           children: [
-            WishlistPage(),
-            Container(
-              color: Colors.orange,
-            ),
+            const WishlistPage(),
+            const UpdatesPage(),
           ],
         ),
       ),
